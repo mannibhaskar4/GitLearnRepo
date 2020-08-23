@@ -1,0 +1,45 @@
+1. git init
+    To initialise a git repository for a new or existing project
+
+2. git status
+    The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git.
+
+3. git add <filename with extension>
+    The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit.
+
+4. git commit -m "<message>"
+    The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to. Prior to the execution of git commit, The git add command is used to promote or 'stage' changes to the project that will be stored in a commit. These two commands git commit and git add are two of the most frequently used.
+
+5. git log
+    The Git Log tool allows you to view information about previous commits that have occurred in a project. The simplest version of the log command shows the commits that lead up to the state of the currently checked out branch.
+
+6. git rm --cached <filename>
+    To remove files from staging area(Unstage)
+
+7. git branch <branch_Name>
+    To create a new branch with name as branch_name
+
+8. git checkout <branch_Name>
+    To switch branches
+
+9. git commit -am "<message>"
+    Commit the files without entering them in staging area
+
+10. git merge <branch_name>
+    To merge a branch into current branch
+
+11. git remote add origin <address of github>
+    add in github
+
+12. git remote 
+    List the remote connections you have to other repositories.
+
+13. git remote -v
+    Same as the above command, but include the URL of each connection.
+
+14. git push origin <branch_name>
+    
+15. git fetch
+
+16. git pull
+
