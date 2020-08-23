@@ -3,3 +3,5 @@ for x in range(1,10):
 
 print("Done with for loops")
 print("Learning git is amazing")
+
+print("Into the while Loops")
